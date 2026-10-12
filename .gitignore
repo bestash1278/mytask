@@ -1,0 +1,25 @@
+# 로컬 문서 분석·브라우저 검증 도구와 의존성
+.tools/
+.npm-cache/
+node_modules/
+
+# 로컬 요구사항 자료
+mytask.pdf
+requirements.txt
+
+# 개인 설정과 비밀 값
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+
+# 운영체제·편집기 임시 파일
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# 개인 할 일 백업
+my-tasks-*.json
